@@ -1,5 +1,7 @@
 name: TruffleHog Secrets Scan
-on: [pull_request]
+on:
+  workflow_dispatch:
+
 jobs:
   TruffleHog:
     runs-on: ubuntu-latest
